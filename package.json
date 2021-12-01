@@ -1,0 +1,36 @@
+{
+  "name": "juna-ui",
+  "version": "1.0.0",
+  "description": "Juna UI kit for React apps",
+  "main": "dist/index.js",
+  "repository": "https://github.com/De-Santa/juna-ui.git",
+  "author": "German Topalov <ru00161131@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "juna",
+    "npm"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "files": ["dist"],
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "@types/styled-components": "^5.1.15",
+    "prettier": "^2.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.60.2",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "styled-components": "^5.3.3",
+    "typescript": "^4.5.2"
+  }
+}
